@@ -40,7 +40,7 @@
 ├── .env
 ├── index.js # Server entry point
 └── README.md
-<pre>
+</pre>
 
 ## 🚀 Features
 
