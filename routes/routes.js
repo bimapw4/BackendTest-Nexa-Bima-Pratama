@@ -5,7 +5,7 @@ import authMiddleware from '../middleware/validate_token.js';
 
 const router = express.Router();
 
-router.use('/users', authMiddleware, userRoutes);
+router.use('/employee', authMiddleware, userRoutes);
 router.use('/login', authRoutes);
 
 export default router;
